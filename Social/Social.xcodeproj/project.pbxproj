@@ -19,6 +19,10 @@
 		C1C6FE8E2B4B9D8F006B6B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C6FE8C2B4B9D8F006B6B68 /* Main.storyboard */; };
 		C1C6FE902B4B9D92006B6B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C6FE8F2B4B9D92006B6B68 /* Assets.xcassets */; };
 		C1C6FE932B4B9D92006B6B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C6FE912B4B9D92006B6B68 /* LaunchScreen.storyboard */; };
+		D1518B402B4E5EE900BBFC44 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1518B3F2B4E5EE900BBFC44 /* Home.storyboard */; };
+		D1518B472B4E5FD100BBFC44 /* Friend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1518B452B4E5FD100BBFC44 /* Friend.storyboard */; };
+		D1518B4A2B4E630E00BBFC44 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1518B492B4E630E00BBFC44 /* Notification.storyboard */; };
+		D1518B4E2B4E632A00BBFC44 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1518B4C2B4E632A00BBFC44 /* Menu.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		C1C6FE8F2B4B9D92006B6B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1C6FE922B4B9D92006B6B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1C6FE942B4B9D92006B6B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1518B3F2B4E5EE900BBFC44 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		D1518B462B4E5FD100BBFC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Friend.storyboard; sourceTree = "<group>"; };
+		D1518B492B4E630E00BBFC44 /* Notification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		D1518B4D2B4E632A00BBFC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Menu.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,14 +114,27 @@
 		C1C6FE852B4B9D8F006B6B68 /* Social */ = {
 			isa = PBXGroup;
 			children = (
+				D1518B422B4E5EF500BBFC44 /* Storyboard */,
 				C161BFB72B4BBD6300F7D25B /* Controllers */,
 				C161BFB62B4BBD5400F7D25B /* Models */,
 				C161BFB52B4BBD4A00F7D25B /* System Files */,
 				C1C6FE8A2B4B9D8F006B6B68 /* ViewController.swift */,
-				C1C6FE8C2B4B9D8F006B6B68 /* Main.storyboard */,
 				C1C6FE942B4B9D92006B6B68 /* Info.plist */,
 			);
 			path = Social;
+			sourceTree = "<group>";
+		};
+		D1518B422B4E5EF500BBFC44 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D1518B4C2B4E632A00BBFC44 /* Menu.storyboard */,
+				D1518B492B4E630E00BBFC44 /* Notification.storyboard */,
+				D1518B452B4E5FD100BBFC44 /* Friend.storyboard */,
+				C1C6FE8C2B4B9D8F006B6B68 /* Main.storyboard */,
+				D1518B3F2B4E5EE900BBFC44 /* Home.storyboard */,
+			);
+			name = Storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,10 +200,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1518B472B4E5FD100BBFC44 /* Friend.storyboard in Resources */,
 				C1C6FE932B4B9D92006B6B68 /* LaunchScreen.storyboard in Resources */,
+				D1518B402B4E5EE900BBFC44 /* Home.storyboard in Resources */,
+				D1518B4E2B4E632A00BBFC44 /* Menu.storyboard in Resources */,
 				C161BFB02B4BBABB00F7D25B /* GoogleService-Info.plist in Resources */,
 				C1C6FE902B4B9D92006B6B68 /* Assets.xcassets in Resources */,
 				C1C6FE8E2B4B9D8F006B6B68 /* Main.storyboard in Resources */,
+				D1518B4A2B4E630E00BBFC44 /* Notification.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +245,22 @@
 				C1C6FE922B4B9D92006B6B68 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D1518B452B4E5FD100BBFC44 /* Friend.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1518B462B4E5FD100BBFC44 /* Base */,
+			);
+			name = Friend.storyboard;
+			sourceTree = "<group>";
+		};
+		D1518B4C2B4E632A00BBFC44 /* Menu.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1518B4D2B4E632A00BBFC44 /* Base */,
+			);
+			name = Menu.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
